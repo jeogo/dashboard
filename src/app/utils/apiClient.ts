@@ -1,7 +1,7 @@
 // src/utils/apiClient.ts
 
 const BASE_URL =
-  process.env.NEXT_PUBLIC_BASE_URL || "https://store-97g7mwukn-jeogos-projects-a72871fd.vercel.app";
+  process.env.NEXT_PUBLIC_BASE_URL || "https://store-bot-iota.vercel.app";
 
 type ApiResponse<T = any> = {
   data?: T;
