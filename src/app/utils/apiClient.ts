@@ -1,7 +1,7 @@
 // src/utils/apiClient.ts
 
 const BASE_URL =
-  process.env.NEXT_PUBLIC_BASE_URL || "https://storebot-im89.onrender.com";
+  process.env.NEXT_PUBLIC_BASE_URL || "https://omnimart-api-m15a.onrender.com";
 
 type ApiResponse<T = any> = {
   data?: T;
